@@ -7,7 +7,7 @@ namespace BeatThat
 	/// </summary>
 	public static class GameObjectUtils
 	{
-			
+
 		/// <summary>
 		/// Very expensive version of GameObject.FindObjectsOfType
 		/// that allows interface types.
@@ -67,6 +67,20 @@ namespace BeatThat
 			}
 
 			return c;
+		}
+
+		/// <summary>
+		/// returns TRUE if a Transform is an ancestor (parent or beyond) of the caller.
+		/// </summary>
+		public static bool IsAncestorOf(this Transform t, Transform t2)
+		{
+			Transform p = t2;
+			while((p = p.parent) != null) {
+				if(p == t) {
+					return true;
+				}
+			}
+			return false;
 		}
 	}
 }
