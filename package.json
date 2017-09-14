@@ -1,7 +1,7 @@
 {
     "name": "gameobject-utils",
     "scope": "ape",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Utils for working with GameObject, layers, flags, etc.",
     "main": "index.js",
     "repository": {
@@ -30,7 +30,7 @@
     "dependencies": {
         "path": "^0.12.7",
         "unity-npm-utils": "github:beatthat/unity-npm-utils#semver:^0.0.9",
-        "pools": "beatthat/pools#semver:^0.0.7",
+        "pools": "beatthat/pools#semver:^0.0.8",
         "transform-path-ext": "beatthat/transform-path-ext#semver:^0.0.1"
     }
 }
