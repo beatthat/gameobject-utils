@@ -1,7 +1,7 @@
 {
   "name": "gameobject-utils",
   "scope": "ape",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "Utils for working with GameObject, layers, flags, etc.",
   "main": "index.js",
   "repository": {
