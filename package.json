@@ -1,6 +1,6 @@
 {
   "name": "gameobject-utils",
-  "scope": "ape",
+  "scope": "beatthat",
   "version": "1.0.0",
   "description": "Utils for working with GameObject, layers, flags, etc.",
   "main": "index.js",
@@ -11,7 +11,9 @@
   "files": [
     "index.js",
     "scripts",
-    "src"
+    "src",
+    "Runtime",
+    "Samples"
   ],
   "author": "larrykirschner@gmail.com",
   "license": "MIT",
