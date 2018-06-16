@@ -1,11 +1,11 @@
 using UnityEngine;
 
-namespace BeatThat
+namespace BeatThat.GameObjectUtil
 {
-	/// <summary>
-	/// Sets some remote GameObject inactive in OnEnable
-	/// </summary>
-	public class SetInactive : MonoBehaviour
+    /// <summary>
+    /// Sets some remote GameObject inactive in OnEnable
+    /// </summary>
+    public class SetInactive : MonoBehaviour
 	{
 		public GameObject m_target;
 
@@ -17,3 +17,4 @@ namespace BeatThat
 
 	}
 }
+

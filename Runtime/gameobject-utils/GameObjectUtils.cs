@@ -1,11 +1,13 @@
+using BeatThat.Pools;
+using BeatThat.TransformPathExt;
 using UnityEngine;
 
-namespace BeatThat
+namespace BeatThat.GameObjectUtil
 {
-	/// <summary>
-	/// Utils for working with GameObjects, layers, flags, searchm etc.
-	/// </summary>
-	public static class GameObjectUtils
+    /// <summary>
+    /// Utils for working with GameObjects, layers, flags, searchm etc.
+    /// </summary>
+    public static class GameObjectUtils
 	{
 
 		/// <summary>
@@ -84,3 +86,6 @@ namespace BeatThat
 		}
 	}
 }
+
+
+
