@@ -1,7 +1,7 @@
 {
   "name": "gameobject-utils",
   "scope": "beatthat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utils for working with GameObject, layers, flags, etc.",
   "main": "index.js",
   "repository": {
